@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color:#222;
+    text-align: center;
+    color: rgb(241, 241, 235);
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: italic;
+    color: white;
+}
+
+.id{
+font-size: 20px;
+font-style: italic;
+font-weight: bold;
+margin-top: 10px;
+text-align: center;
+}
+  
+.buttono{
+   font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+margin-top: 30px;
+background-color:#ffd700;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+box-shadow:0 0 10px #ffd700;
+}
+
+#myimage{ 
+width: 200px;
+margin-top: 30px;
+}
+
+.bulb{
+transition: 0.3s;
+}
+
+.bulb.on{
+box-shadow: 
+0 0 40px yellow,
+0 0 80px gold,
+0 0 120px orange;}
+
+.buttonb{
+     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+margin-top: 30px;
+background-color:#ffd700;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+box-shadow:0 0 10px #ffd700;}
+
+.buttono:hover{
+   box-shadow:0 0 20px gold;
+transform:scale(1.05);
+
+}
+.buttonb:hover
+  {
+box-shadow:0 0 20px gold;
+transform:scale(1.05);
+}
